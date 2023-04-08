@@ -19,6 +19,9 @@ module.exports = {
           7: 'rgba(255, 255, 255, 0.7)',
         }
       },
+      letterSpacing: {
+        3: '-.03em',
+      },
       fontSize: {
         h1: '5rem',  // 80px
         h1sm: '2.188rem', // 35px
