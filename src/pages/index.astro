@@ -132,7 +132,7 @@ import Layout from "../layouts/Layout.astro";
               </figure>
             </div>
           </div>
-          <div class="sm:flex items-end mt-10 sm:mt-44">
+          <div class="sm:flex items-end lg:mt-[11.25rem] mt-10">
             <a
               class="hidden lg:block font-montserrat font-semibold text-base leading-5 uppercase underline text-black"
               href=""
@@ -213,15 +213,24 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </section>
   <section class="px-5">
-    <!-- desktop -->
+    <!-- Desktop version-->
     <div class="hidden lg:block container mx-auto">
       <h2>Testimonials</h2>
       <div class="flex justify-between items-end">
         <div class="max-w-[35.875rem] mr-[2.875rem]">
           <div class="flex -ml-8">
-            <span class="text-6xl font-cinzel font-thin leading-[100%]">
-              &#10077;
-            </span>
+            <svg
+              class="max-w-full w-[1.938rem] h-[1.563rem] font-cinzel font-normal text-[120px] leading-[100%]"
+              viewBox="0 0 31 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29 21.2C28.52 22.4 27.6 23.2 26.24 23.6C24.96 24 23.6 23.92 22.16 23.36C20.8 22.8 19.76 21.68 19.04 20C18 17.52 17.6 15.16 17.84 12.92C18.08 10.68 18.76 8.68 19.88 6.92C21.08 5.08 22.56 3.64 24.32 2.6C26.08 1.55999 28 0.999994 30.08 0.919995L30.32 2C27.76 2.79999 26.08 3.99999 25.28 5.59999C24.48 7.12 24.24 8.64 24.56 10.16C24.88 11.68 25.4 12.88 26.12 13.76C26.68 14.4 27.24 15.08 27.8 15.8C28.44 16.52 28.92 17.32 29.24 18.2C29.56 19.08 29.48 20.08 29 21.2ZM12.2 21.2C11.72 22.4 10.8 23.2 9.44 23.6C8.16 24 6.8 23.92 5.36 23.36C4 22.8 2.96 21.68 2.24 20C1.2 17.52 0.8 15.16 1.04 12.92C1.28 10.68 1.96 8.68 3.08 6.92C4.28 5.08 5.76 3.64 7.52 2.6C9.28 1.55999 11.2 0.999994 13.28 0.919995L13.52 2C10.96 2.79999 9.28 3.99999 8.48 5.59999C7.68 7.12 7.44 8.64 7.76 10.16C8.08 11.68 8.6 12.88 9.32 13.76C9.88 14.4 10.44 15.08 11 15.8C11.64 16.52 12.12 17.32 12.44 18.2C12.76 19.08 12.68 20.08 12.2 21.2Z"
+                fill="#383533"
+              >
+              </path>
+            </svg>
             <p class="font-cinzel text-[2.5rem] py-5 leading-[100%] text-black">
               Amet minim molliteniam consequat sunt
             </p>
@@ -328,11 +337,22 @@ import Layout from "../layouts/Layout.astro";
         </div>
       </div>
     </div>
-    <!-- mobile -->
+    <!-- Mobile version-->
     <div class="lg:hidden container mx-auto">
       <h2>Testimonials</h2>
       <div class="flex">
-        <span>&#10077;</span>
+        <svg
+          class="w-[1.938rem] h-[1.563rem] font-cinzel font-normal text-[120px] leading-[100%]"
+          viewBox="0 0 31 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M29 21.2C28.52 22.4 27.6 23.2 26.24 23.6C24.96 24 23.6 23.92 22.16 23.36C20.8 22.8 19.76 21.68 19.04 20C18 17.52 17.6 15.16 17.84 12.92C18.08 10.68 18.76 8.68 19.88 6.92C21.08 5.08 22.56 3.64 24.32 2.6C26.08 1.55999 28 0.999994 30.08 0.919995L30.32 2C27.76 2.79999 26.08 3.99999 25.28 5.59999C24.48 7.12 24.24 8.64 24.56 10.16C24.88 11.68 25.4 12.88 26.12 13.76C26.68 14.4 27.24 15.08 27.8 15.8C28.44 16.52 28.92 17.32 29.24 18.2C29.56 19.08 29.48 20.08 29 21.2ZM12.2 21.2C11.72 22.4 10.8 23.2 9.44 23.6C8.16 24 6.8 23.92 5.36 23.36C4 22.8 2.96 21.68 2.24 20C1.2 17.52 0.8 15.16 1.04 12.92C1.28 10.68 1.96 8.68 3.08 6.92C4.28 5.08 5.76 3.64 7.52 2.6C9.28 1.55999 11.2 0.999994 13.28 0.919995L13.52 2C10.96 2.79999 9.28 3.99999 8.48 5.59999C7.68 7.12 7.44 8.64 7.76 10.16C8.08 11.68 8.6 12.88 9.32 13.76C9.88 14.4 10.44 15.08 11 15.8C11.64 16.52 12.12 17.32 12.44 18.2C12.76 19.08 12.68 20.08 12.2 21.2Z"
+            fill="#383533"
+          >
+          </path>
+        </svg>
         <p class="font-cinzel text-xl mt-2">
           Amet minim molliteniam consequat sunt
         </p>
@@ -346,18 +366,22 @@ import Layout from "../layouts/Layout.astro";
         </p>
       </div>
       <div
-        class="flex items-center justify-between gap-6 m-auto max-w-full w-[20.938rem] mb-10"
+        class="flex items-center justify-between max-w-full gap-6 m-auto mb-10"
       >
-        <div class="max-w-full w-[9.688rem]">
-          <figure>
-            <img src="../../image/rectangle-19.png" alt="" />
-          </figure>
-        </div>
-        <div class="max-w-full w-[9.688rem]">
-          <figure>
-            <img src="../../image/rectangle-18.png" alt="" />
-          </figure>
-        </div>
+        <figure class="w-full h-full max-w-full">
+          <img
+            class="w-full h-full"
+            src="../../image/rectangle-19.png"
+            alt=""
+          />
+        </figure>
+        <figure class="w-full h-full max-w-full">
+          <img
+            class="w-full h-full"
+            src="../../image/rectangle-18.png"
+            alt=""
+          />
+        </figure>
       </div>
     </div>
   </section>
@@ -433,20 +457,89 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </section>
+
+  <!-- Desktop version -->
   <section class="px-5">
-    <div class="container mx-auto">
+    <div class="hidden lg:block container mx-auto mt-[9.375rem]">
+      <div class="relative">
+        <h1
+          class="text-h1 font-cinzel font-normal tracking-3 uppercase text-black w-[390px] absolute top-1/2 left-0 -translate-y-1/2"
+        >
+          Karissa Smith
+        </h1>
+        <figure
+          class="max-w-full w-[36.188rem] h-[41.25rem] flex justify-center bg-[url('../../image/bg.png')] bg-no-repeat bg-cover bg-center m-auto mb-5 py-14 px-24"
+        >
+          <img class="w-full" src="../../image/rectangle-35.png" alt="" />
+        </figure>
+        <p class="w-[16.75rem] absolute bottom-0 left-0">
+          Karissa is the artist behind Henna Happens, a professionally and
+          internationally trained henna artist.
+        </p>
+        <div class="flex absolute right-0 bottom-0">
+          <svg
+            class="max-w-full w-[1.938rem] h-[1.563rem] font-cinzel font-normal text-[120px] leading-[100%]"
+            viewBox="0 0 31 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M29 21.2C28.52 22.4 27.6 23.2 26.24 23.6C24.96 24 23.6 23.92 22.16 23.36C20.8 22.8 19.76 21.68 19.04 20C18 17.52 17.6 15.16 17.84 12.92C18.08 10.68 18.76 8.68 19.88 6.92C21.08 5.08 22.56 3.64 24.32 2.6C26.08 1.55999 28 0.999994 30.08 0.919995L30.32 2C27.76 2.79999 26.08 3.99999 25.28 5.59999C24.48 7.12 24.24 8.64 24.56 10.16C24.88 11.68 25.4 12.88 26.12 13.76C26.68 14.4 27.24 15.08 27.8 15.8C28.44 16.52 28.92 17.32 29.24 18.2C29.56 19.08 29.48 20.08 29 21.2ZM12.2 21.2C11.72 22.4 10.8 23.2 9.44 23.6C8.16 24 6.8 23.92 5.36 23.36C4 22.8 2.96 21.68 2.24 20C1.2 17.52 0.8 15.16 1.04 12.92C1.28 10.68 1.96 8.68 3.08 6.92C4.28 5.08 5.76 3.64 7.52 2.6C9.28 1.55999 11.2 0.999994 13.28 0.919995L13.52 2C10.96 2.79999 9.28 3.99999 8.48 5.59999C7.68 7.12 7.44 8.64 7.76 10.16C8.08 11.68 8.6 12.88 9.32 13.76C9.88 14.4 10.44 15.08 11 15.8C11.64 16.52 12.12 17.32 12.44 18.2C12.76 19.08 12.68 20.08 12.2 21.2Z"
+              fill="#383533"
+            >
+            </path>
+          </svg>
+          <h2 class="w-[345px]">Amet minim molliteniam</h2>
+        </div>
+      </div>
+      <figure class="max-w-full flex justify-center w-[20.938rem] m-auto mb-5">
+        <img src="../../image/secondary-photo.png" alt="" />
+      </figure>
+      <div class="flex -mb-2">
+        <span class="text-[4.375rem] leading-none font-cinzel text-[#A1BD74]">
+          A
+        </span>
+        <p class="mb-2">
+          natural artist at heart, she was introduced to the medium in 2014 and
+          instantly fell in love.
+        </p>
+      </div>
+      <p>
+        With a passionate 8 years of professional experience, she specializes in
+        bridal, Indo-Arabic, Moroccan, and contemporary designs; each design is
+        uniquely freehand and can tailored for you, the possibilities are
+        endless.
+      </p>
+      <p>
+        Our fresh henna and jagua products are all natural, plant based and hand
+        mixed in small batches for the highest staining quality and will
+        definitely be a hit at your next party, wedding, or event.
+      </p>
+      <h3 class="font-montserrat font-semibold text-xl leading-6 mb-[1.875rem]">
+        Book now for your one of a kind design!
+      </h3>
+      <button
+        class="bg-black font-montserrat w-full py-4 text-white text-base mb-[4.375rem]"
+      >
+        Meet the Artist
+      </button>
+    </div>
+  </section>
+  <!-- Mobile version -->
+  <section class="px-5">
+    <div class="lg:hidden container mx-auto">
       <h2 class="text-center">Karissa Smith</h2>
       <figure
-        class="max-w-full flex justify-center w-[20.938rem] bg-[url('../../image/bg.png')] m-auto mb-5 py-3"
+        class="max-w-full flex justify-center bg-[url('../../image/bg.png')] bg-no-repeat bg-cover bg-center m-auto mb-5 py-3 px-12"
       >
-        <img src="../../image/rectangle-35.png" alt="" />
+        <img class="w-full" src="../../image/rectangle-35.png" alt="" />
       </figure>
       <p>
         Karissa is the artist behind Henna Happens, a professionally and
         internationally trained henna artist.
       </p>
-      <figure class="max-w-full flex justify-center w-[20.938rem] m-auto mb-5">
-        <img src="../../image/secondary-photo.png" alt="" />
+      <figure class="max-w-full flex justify-center m-auto mb-5">
+        <img class="w-full" src="../../image/secondary-photo.png" alt="" />
       </figure>
       <div class="flex -mb-2">
         <span class="text-[4.375rem] leading-none font-cinzel text-[#A1BD74]">
