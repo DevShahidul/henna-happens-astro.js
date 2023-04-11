@@ -3,10 +3,10 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to">
-  <section class="p-5 overflow-hidden">
+  <section class="p-5 lg:px-30 overflow-hidden">
     <div class="container mx-auto">
       <div class="hidden sm:block lg:flex items-center">
-        <div>
+        <div class="lg:w-[51.666%]">
           <p>
             All of our body art services are completely freehand, temporary, &
             fun
@@ -21,8 +21,8 @@ import Layout from "../layouts/Layout.astro";
             Book Now
           </button>
         </div>
-        <div>
-          <figure class="w-full lg:w-[36.25rem] h-[42.5rem] mb-5">
+        <div class="lg:w-[48.333%]">
+          <figure class="w-full mb-5">
             <img
               class="w-full h-full"
               src="../../image/rectangle-14.png"
@@ -58,11 +58,11 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </section>
-  <section class="p-5">
+  <section class="p-5 lg:px-30">
     <div class="container mx-auto">
       <h2>Portfolio</h2>
-      <div class="lg:flex gap-10 justify-center">
-        <div class="w-full">
+      <div class="lg:flex justify-center">
+        <div class="w-full lg:w-[48.333%] mr-[3.333%]">
           <figure
             class="max-w-full sm:w-full sm:h-full bg-black-3 m-auto mb-5 relative"
           >
@@ -87,29 +87,23 @@ import Layout from "../layouts/Layout.astro";
             </figcaption>
           </figure>
         </div>
-        <div class="m-auto max-w-full sm:w-full mb-10 lg:mb-0">
+        <div class="m-auto max-w-full lg:w-[45%] mb-10 lg:mb-0">
           <div class="flex items-center justify-between gap-6 lg:gap-10">
-            <div class="max-w-full w-full">
-              <figure>
-                <img
-                  class="w-full h-full"
-                  src="../../image/rectangle-16.png"
-                  alt=""
-                />
-                <figcaption class="mt-5">
-                  <h5
-                    class="text-[0.813rem] leading-4 text-light pt-[0.625rem]"
-                  >
-                    Aliqua id fugiat nostrud
-                  </h5>
-                  <h5
-                    class="text-[0.813rem] leading-4 text-light pt-[0.625rem]"
-                  >
-                    01/02/2023
-                  </h5>
-                </figcaption>
-              </figure>
-            </div>
+            <figure class="max-w-full w-full">
+              <img
+                class="w-full h-full"
+                src="../../image/rectangle-16.png"
+                alt=""
+              />
+              <figcaption class="mt-5">
+                <h5 class="text-[0.813rem] leading-4 text-light pt-[0.625rem]">
+                  Aliqua id fugiat nostrud
+                </h5>
+                <h5 class="text-[0.813rem] leading-4 text-light pt-[0.625rem]">
+                  01/02/2023
+                </h5>
+              </figcaption>
+            </figure>
             <div class="max-w-full w-full">
               <figure>
                 <img
@@ -212,13 +206,13 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </section>
-  <section class="px-5">
+  <section class="px-5 lg:px-30">
     <!-- Desktop version-->
     <div class="hidden lg:block container mx-auto">
       <h2>Testimonials</h2>
       <div class="flex justify-between items-end">
-        <div class="max-w-[35.875rem] mr-[2.875rem]">
-          <div class="flex -ml-8">
+        <div class="max-w-full w-[ lg:w-[51.666%] mr-[3.333%]">
+          <div class="flex -ml-4">
             <svg
               class="max-w-full w-[1.938rem] h-[1.563rem] font-cinzel font-normal text-[120px] leading-[100%]"
               viewBox="0 0 31 25"
@@ -248,7 +242,7 @@ import Layout from "../layouts/Layout.astro";
           >
             Flores, Juanita
           </h4>
-          <div class="flex max-w-[35.875rem] justify-between items-end">
+          <div class="max-w-full flex justify-between items-end">
             <div class="flex items-center justify-between gap-5 mr-5">
               <button
                 class="w-[6.25rem] h-[6.25rem] flex items-center justify-center border border-disabled rounded-full"
@@ -326,8 +320,8 @@ import Layout from "../layouts/Layout.astro";
             </figure>
           </div>
         </div>
-        <div>
-          <figure class="max-w-full w-[36.25rem] h-[36.25rem]">
+        <div class="lg:w-[45%]">
+          <figure class="max-w-full">
             <img
               class="w-full h-full"
               src="../../image/hero-photo.png"
@@ -385,7 +379,7 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </section>
-  <section class="lg:hidden px-5">
+  <section class="lg:hidden px-10">
     <div class="container mx-auto">
       <div class="flex items-center justify-between mb-[4.375rem]">
         <button
@@ -459,7 +453,7 @@ import Layout from "../layouts/Layout.astro";
   </section>
 
   <!-- Desktop version -->
-  <section class="px-5">
+  <section class="px-5 lg:px-30">
     <div class="hidden lg:block container mx-auto mt-[9.375rem]">
       <div class="relative">
         <h1
@@ -468,15 +462,15 @@ import Layout from "../layouts/Layout.astro";
           Karissa Smith
         </h1>
         <figure
-          class="max-w-full w-[36.188rem] h-[41.25rem] flex justify-center bg-[url('../../image/bg.png')] bg-no-repeat bg-cover bg-center m-auto mb-5 py-14 px-24"
+          class="max-w-full lg:w-[48.333%] flex justify-center bg-[url('../../image/bg.png')] bg-no-repeat bg-cover bg-center m-auto mb-5 py-14 px-7 xl:px-24"
         >
           <img class="w-full" src="../../image/rectangle-35.png" alt="" />
         </figure>
-        <p class="w-[16.75rem] absolute bottom-0 left-0">
+        <p class="w-[16.75rem] absolute bottom-0 left-0 m-0">
           Karissa is the artist behind Henna Happens, a professionally and
           internationally trained henna artist.
         </p>
-        <div class="flex absolute right-0 bottom-0">
+        <div class="flex absolute -right-20 bottom-0 text-olive">
           <svg
             class="max-w-full w-[1.938rem] h-[1.563rem] font-cinzel font-normal text-[120px] leading-[100%]"
             viewBox="0 0 31 25"
@@ -492,29 +486,50 @@ import Layout from "../layouts/Layout.astro";
           <h2 class="w-[345px]">Amet minim molliteniam</h2>
         </div>
       </div>
-      <figure class="max-w-full flex justify-center w-[20.938rem] m-auto mb-5">
-        <img src="../../image/secondary-photo.png" alt="" />
-      </figure>
-      <div class="flex -mb-2">
-        <span class="text-[4.375rem] leading-none font-cinzel text-[#A1BD74]">
-          A
-        </span>
-        <p class="mb-2">
-          natural artist at heart, she was introduced to the medium in 2014 and
-          instantly fell in love.
-        </p>
+
+      <div class="flex items-start mt-20">
+        <div class="flex items-end w-[48.333%]">
+          <figure class="w-[46.551%]">
+            <img src="../../image/secondaryphoto.png" alt="" />
+          </figure>
+          <div class="w-[46.551%] ml-[6.896%]">
+            <div class="flex -mb-2">
+              <span
+                class="text-[4.375rem] leading-none font-cinzel text-[#A1BD74]"
+              >
+                A
+              </span>
+              <p class="mb-2">
+                natural artist at heart, she was introduced to the medium in
+                2014 and instantly fell in love.
+              </p>
+            </div>
+            <p>
+              With a passionate 8 years of professional experience, she
+              specializes in bridal, Indo-Arabic, Moroccan, and contemporary
+              designs; each design is uniquely freehand and can tailored for
+              you, the possibilities are endless.
+            </p>
+            <p class="mb-0">
+              Our fresh henna and jagua products are all natural, plant based
+              and hand mixed in small batches for the highest staining quality
+              and will definitely be a hit at your next party, wedding, or
+              event.
+            </p>
+          </div>
+        </div>
+        <figure class="max-w-full flex justify-center w-[48.333%] m-auto mb-5">
+          <img
+            class="w-full h-full"
+            src="../../image/secondary-photo.png"
+            alt=""
+          />
+        </figure>
       </div>
-      <p>
-        With a passionate 8 years of professional experience, she specializes in
-        bridal, Indo-Arabic, Moroccan, and contemporary designs; each design is
-        uniquely freehand and can tailored for you, the possibilities are
-        endless.
-      </p>
-      <p>
-        Our fresh henna and jagua products are all natural, plant based and hand
-        mixed in small batches for the highest staining quality and will
-        definitely be a hit at your next party, wedding, or event.
-      </p>
+    </div>
+  </section>
+
+  <!-- 
       <h3 class="font-montserrat font-semibold text-xl leading-6 mb-[1.875rem]">
         Book now for your one of a kind design!
       </h3>
@@ -522,11 +537,9 @@ import Layout from "../layouts/Layout.astro";
         class="bg-black font-montserrat w-full py-4 text-white text-base mb-[4.375rem]"
       >
         Meet the Artist
-      </button>
-    </div>
-  </section>
+      </button> -->
   <!-- Mobile version -->
-  <section class="px-5">
+  <section class="px-5 lg:px-30">
     <div class="lg:hidden container mx-auto">
       <h2 class="text-center">Karissa Smith</h2>
       <figure

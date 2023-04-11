@@ -33,7 +33,10 @@ module.exports = {
         'cinzel': '"Cinzel", serif',
         'cormorant': '"Cormorant", serif',
         'bodoni': '"Bodoni Moda", serif',
-      }
+      },
+      spacing: {
+        '30': '7.5rem',
+      },
     },
   },
   plugins: [],
