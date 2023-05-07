@@ -8,6 +8,7 @@ module.exports = {
           DEFAULT: '#383533',
           30: 'rgba(65, 60, 59, 0.3)',
           3: 'rgba(0, 0, 0, 0.2)',
+          55: 'rgba(0, 0, 0, 0.55)',
           button: '#0F0F0F'
         },
         light: '#413C3B',
@@ -27,6 +28,7 @@ module.exports = {
         h1sm: '2.188rem', // 35px
         h2: '3.75rem', // 60px
         h2sm: '1.875rem', // 30px
+        h4: '2.5rem', //40px
       },
       fontFamily: {
         'montserrat': '"Montserrat", sans-serif',
@@ -35,7 +37,7 @@ module.exports = {
         'bodoni': '"Bodoni Moda", serif',
       },
       spacing: {
-        '30': '7.5rem',
+        '30': '7.5rem',//120px
       },
     },
   },
